@@ -4,7 +4,7 @@
       "Songmu <y.songmu@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.14.1",
+   "generated_by" : "Minilla/v2.1.1",
    "license" : [
       "perl_5"
    ],
@@ -45,9 +45,11 @@
       "runtime" : {
          "requires" : {
             "Class::Accessor::Lite" : "0",
+            "Digest::SHA" : "0",
             "JSON" : "0",
             "Plack::Request" : "0",
             "Plack::Runner" : "0",
+            "String::Compare::ConstantTime" : "0",
             "parent" : "0",
             "perl" : "5.008001"
          }
@@ -63,7 +65,7 @@
    "provides" : {
       "Github::Hooks::Receiver" : {
          "file" : "lib/Github/Hooks/Receiver.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Github::Hooks::Receiver::Declare" : {
          "file" : "lib/Github/Hooks/Receiver/Declare.pm"
@@ -83,5 +85,8 @@
          "web" : "https://github.com/Songmu/Github-Hooks-Receiver"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02",
+   "x_contributors" : [
+      "Ichinose Shogo <shogo82148@gmail.com>"
+   ]
 }

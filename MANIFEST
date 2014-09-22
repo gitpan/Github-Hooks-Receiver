@@ -12,5 +12,6 @@ minil.toml
 t/00_compile.t
 t/01_basic.t
 t/02_declare.t
+t/03_signature.t
 META.yml
 MANIFEST
